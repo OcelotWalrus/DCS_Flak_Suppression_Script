@@ -22,11 +22,11 @@ Implementing this script in your mission is very similar to implementing [Skynet
 
 First, create a simple trigger that triggers unpon mission start. Add a `DO SCRIPT FILE` action and select your own copy of `mist_4_5_126.lua`.
 
-CAPTURE
+<img width="2560" height="1440" alt="Capture" src="https://github.com/user-attachments/assets/8c438f9b-41b4-4acd-aeb8-3a42167befc2" />
 
 Then, add a second `DO SCRIPT FILE` action and select your own copy of the Flak Suppression Script.
 
-CAPTURE2
+<img width="2560" height="1440" alt="Capture2" src="https://github.com/user-attachments/assets/157ebd3d-9ac9-4098-8b53-fed6f4222f6b" />
 
 ### Step № 2
 
