@@ -15,7 +15,7 @@ do
 --       Usage :                                                     --
 --                                                                   --
 --       This script simulates realistic Flak/AAA behavior           --
---       by turning a Flak/AAA site's AI off is it gets damage       --
+--       by turning a Flak/AAA site's AI off if it gets damage       --
 --       up to a certain point. Then, after a given time, the site   --
 --       is able to recover and the AI goes back online.             --
 --                                                                   --
@@ -43,7 +43,7 @@ BaldCoyoteFlakSupressionScript.default_supression_percentage_step = 25 -- %. ste
 BaldCoyoteFlakSupressionScript.default_min_operating_health = 35 -- %. If the overall flak site group's health goes below, the AI will be turned OFF no matter whether it's been supressed or not.
 BaldCoyoteFlakSupressionScript.debugging = false
 BaldCoyoteFlakSupressionScript.update_time_step = 1 -- secs. How often the main loop is ran.
-BaldCoyoteFlakSupressionScript.debugging_message_stayon_time = 2 -- secs. how long debugging messages should stay on
+BaldCoyoteFlakSupressionScript.debugging_message_stayon_time = 1 -- secs. how long debugging messages should stay on
 
 local function print_to_log( message )
 
